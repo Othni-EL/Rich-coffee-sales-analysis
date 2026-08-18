@@ -65,11 +65,11 @@ Average Price = DIVIDE([Total Sales], [Total Transaction], 0)
 
 ---
 
-C. Visual Layout & UX Design
-Applied an ambient coffee color palette (espresso dark brown, amber, and warm cream tones) to elevate visual hierarchy and user experience.
+### C. Visual Layout & UX Design
+* Applied an ambient coffee color palette (espresso dark brown, amber, and warm cream tones) to elevate visual hierarchy and user experience.
+* Integrated global interactive slicers for Year, Product, and Month to enable seamless cross-filtering across all visual cards.
 
-Integrated global interactive slicers for Year, Product, and Month to enable seamless cross-filtering across all visual cards.
-
+---
 
 ## 5. Dashboard Preview
 
