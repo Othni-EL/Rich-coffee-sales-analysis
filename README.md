@@ -75,48 +75,43 @@ Average Price = DIVIDE([Total Sales], [Total Transaction], 0)
 
 ![Coffee Sales Dashboard](Screenshots/coffee_sales_dashboard.png)
 
+---
+
 ## 6. Key Findings & Commercial Insights
-Bimodal Seasonal Revenue Spikes:
 
-Revenue peaks dramatically twice a year: a primary surge in March (~17K sales / ~490 transactions) and a secondary wave in October (~14K sales / ~420 transactions).
+1. **Bimodal Seasonal Revenue Spikes:**
+   * Revenue peaks dramatically twice a year: a primary surge in **March (~17K sales / ~490 transactions)** and a secondary wave in **October (~14K sales / ~420 transactions)**.
+   * Mid-year performance stabilizes between April and July, with the slowest revenue periods occurring during the winter transition (November–December).
 
-Mid-year performance stabilizes between April and July, with the slowest revenue periods occurring during the winter transition (November–December).
+2. **Balanced Daypart Distribution:**
+   * Demand is evenly distributed across the entire operating day:
+     * **Night:** 33.82%
+     * **Afternoon:** 33.80%
+     * **Morning:** 32.38%
+   * Footfall remains high well beyond the traditional morning rush, proving strong evening cafe patronization.
 
-Balanced Daypart Distribution:
+3. **Weekday Dominance Over Weekends:**
+   * **Tuesday (18.6K)** and **Monday (17.9K)** generate peak weekly revenue, closely followed by **Friday (17.3K)**.
+   * Weekend sales decline, with **Sunday (13.9K)** and **Saturday (15.2K)** representing the lowest sales days.
 
-Demand is evenly distributed across the entire operating day:
+4. **Product Revenue Engines (Latte & Americano Lead):**
+   * **Latte** and **Americano with Milk** are the primary revenue anchors, followed by **Cappuccino** and classic **Americano**.
+   * Specialty/niche drinks such as **Espresso**, **Cortado**, **Cocoa**, and **Hot Chocolate** represent smaller revenue contributions.
 
-Night: 33.82%
-
-Afternoon: 33.80%
-
-Morning: 32.38%
-
-Footfall remains high well beyond the traditional morning rush, proving strong evening cafe patronization.
-
-Weekday Dominance Over Weekends:
-
-Tuesday (18.6K) and Monday (17.9K) generate peak weekly revenue, closely followed by Friday (17.3K).
-
-Weekend sales decline, with Sunday (13.9K) and Saturday (15.2K) representing the lowest sales days.
-
-Product Revenue Engines (Latte & Americano Lead):
-
-Latte and Americano with Milk are the primary revenue anchors, followed by Cappuccino and classic Americano.
-
-Specialty/niche drinks such as Espresso, Cortado, Cocoa, and Hot Chocolate represent smaller revenue contributions.
+---
 
 ## 7. Strategic Recommendations
-Barista Shift Scheduling: Maintain full staffing capacity across all three dayparts on Monday, Tuesday, and Friday to handle consistent throughput.
 
-Weekend Revenue Boosters: Introduce weekend-exclusive promotions (e.g., artisan bakery combos or loyalty point multipliers) to lift Saturday and Sunday footfall.
+* **Barista Shift Scheduling:** Maintain full staffing capacity across all three dayparts on Monday, Tuesday, and Friday to handle consistent throughput.
+* **Weekend Revenue Boosters:** Introduce weekend-exclusive promotions (e.g., artisan bakery combos or loyalty point multipliers) to lift Saturday and Sunday footfall.
+* **Seasonal Drink Launches:** Launch limited-edition promotional drinks during the peak demand cycles in March and October to maximize high customer propensity to spend.
+* **Menu Bundling Strategy:** Create high-margin combo deals pairing lower-volume specialty drinks (*Cortado*, *Espresso*) with snacks or pastries to boost basket size.
 
-Seasonal Drink Launches: Launch limited-edition promotional drinks during the peak demand cycles in March and October to maximize high customer propensity to spend.
-
-Menu Bundling Strategy: Create high-margin combo deals pairing lower-volume specialty drinks (Cortado, Espresso) with snacks or pastries to boost basket size.
+---
 
 ## 8. Repository File Structure
-Plaintext
+
+```text
 Rich-coffee-sales-analysis/
 │
 ├── README.md
@@ -126,9 +121,17 @@ Rich-coffee-sales-analysis/
 │   └── rich_coffee_dashboard.pbix
 └── Screenshots/
     └── coffee_sales_dashboard.png
+
+```
+
+---
+
 ## 9. Next Steps & Future Enhancements
-Customer Identification & Loyalty Tracking: Integrate customer IDs to analyze repeat purchase frequency, churn rates, and customer lifetime value (CLV).
 
-Cost of Goods Sold (COGS) Integration: Ingest raw ingredient and packaging costs to evaluate gross profit margin by drink rather than relying solely on top-line revenue.
+* **Customer Identification & Loyalty Tracking:** Integrate customer IDs to analyze repeat purchase frequency, churn rates, and customer lifetime value (CLV).
+* **Cost of Goods Sold (COGS) Integration:** Ingest raw ingredient and packaging costs to evaluate gross profit margin by drink rather than relying solely on top-line revenue.
+* **Hourly Footfall Heatmaps:** Expand dayparts into an hour-by-hour operational matrix to optimize machine maintenance cycles and barista shift handovers.
 
-Hourly Footfall Heatmaps: Expand dayparts into an hour-by-hour operational matrix to optimize machine maintenance cycles and barista shift handovers.
+```
+
+```
