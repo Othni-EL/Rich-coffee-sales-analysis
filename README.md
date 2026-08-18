@@ -59,7 +59,11 @@ Total Sales = SUM(coffee_data[money(Rs)])
 Total Transaction = COUNTROWS(coffee_data)
 
 -- Average Ticket Size
-Average Price = DIVIDE([Total Sales], [Total Transaction], 0) ```
+Average Price = DIVIDE([Total Sales], [Total Transaction], 0)
+
+```
+
+---
 
 C. Visual Layout & UX Design
 Applied an ambient coffee color palette (espresso dark brown, amber, and warm cream tones) to elevate visual hierarchy and user experience.
